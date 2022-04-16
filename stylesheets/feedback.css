@@ -1,0 +1,50 @@
+.feedback-block {
+  padding: 20px 0;
+  background: black;
+  flex: 1;
+}
+
+.column-60 {
+  width: 60%;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+
+.feedback-photo {
+  width: 250px;
+  border-radius: 100px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.fb-title {
+  color: #FC431B;
+  margin-bottom: 15px;
+}
+
+.fb-text {
+  color: #07B1BC;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 880px) {
+  .column-60 {
+    width: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 540px) {
+  .column-60 {
+    width: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .fb-title {
+    margin-top: 380px;
+  }
+}

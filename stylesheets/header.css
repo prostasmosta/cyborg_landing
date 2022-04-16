@@ -1,0 +1,43 @@
+.header {
+  position: absolute;
+  width: 100%;
+  background: #FC712B;
+  /*#F07818*/
+  /*#FD9319*/
+  top: 0;
+}
+
+.header-nav {
+  float: right;
+  line-height: 30px;
+  vertical-align: center;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-nav-text li{
+  display: inline-block;
+  color: black;
+  padding: 10px 10px;
+  font-weight: bold;
+}
+
+.nav-block {
+  /*border: 3px solid #5E412F;*/
+  border-radius: 10px;
+  margin-left: 5px;
+  /*background: #78C0A8;*/
+  font-size: 1.2em;
+}
+
+@media (max-width: 465px) {
+  .header-nav {
+    float: none;
+    text-align: left;
+    line-height: 15px;
+    font-size: 0.9em;
+  }
+}

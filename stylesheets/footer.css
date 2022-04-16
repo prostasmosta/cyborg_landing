@@ -1,0 +1,16 @@
+.footer {
+  height: 50px;
+  background: black;
+  bottom: 0;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.social-media {
+  text-align: center;
+  padding-top: 8px;
+}
+
+.icon-social {
+  padding-right: 15px;
+}

@@ -1,0 +1,45 @@
+.order-photo {
+  width: 150px;
+}
+
+.order {
+  padding: 15px;
+  border-radius: 60px;
+  background: #f24d16;
+  text-align: center;
+}
+
+.column-30 {
+  width: 30%;
+  float: right;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+
+.order-text {
+  /*color: #FECD5A;*/
+  /*font-style: italic;*/
+}
+
+.button {
+  display: inline-block;
+  border-radius: 30px;
+  padding: 15px 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.button-color {
+  background: black;
+  color: #07B1BC;
+  font-size: 0.8em;
+}
+
+@media (max-width: 880px) {
+  .column-30 {
+    float: bottom;
+    width: 90%;
+    margin-top: 20px;
+  }
+}
