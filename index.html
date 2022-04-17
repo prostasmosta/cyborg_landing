@@ -12,11 +12,17 @@
   <link rel="stylesheet" href="stylesheets/feedback.css"/>
   <link rel="stylesheet" href="stylesheets/order.css"/>
   <link rel="stylesheet" href="stylesheets/footer.css"/>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 
 <body>
-<div class="header">
+<header class="header">
+  <div class="container header-container">
+    <div class="burger-menu">
+      <span></span>
+    </div>
+
   <div class="header-container">
     <div class="header-nav">
       <ul class="header-nav-text">
@@ -27,9 +33,10 @@
       </ul>
     </div>
   </div>
-</div>
+  </div>
+</header>
 
-<div class="intro">
+<div class="intro" data-parallax="scroll" data-image-src="data/cyborg-1-1.jpg">
   <h1 class="title">Попади в будущее уже сегодня!</h1>
   <h2 class="title-mini">Поставь один глаз-имплант, получи второй в подарок</h2>
   <p class="text-mini">(Предложение ограничено, подробности спрашивайте у специалистов)</p>
@@ -39,7 +46,7 @@
   <div class="container">
     <div class="column-25">
       <div class="features-item">
-        <img class="icon" src="data/1.png">
+        <img class="icon" src="data/1.png" alt="medicine icon">
       </div>
       <h2 class="feature-title">Профессионализм</h2>
       <p class="feature-text">Мы делаем любые виды операций</p>
@@ -47,7 +54,7 @@
 
     <div class="column-25">
       <div class="features-item">
-        <img class="icon" src="data/7.png">
+        <img class="icon" src="data/7.png" alt="medicine icon">
       </div>
       <h2 class="feature-title">Качество</h2>
       <p class="feature-text">Полная диагностика тела и подбор подходящего импланта</p>
@@ -55,7 +62,7 @@
 
     <div class="column-25">
       <div class="features-item">
-        <img class="icon" src="data/9.png">
+        <img class="icon" src="data/9.png" alt="medicine icon">
       </div>
       <h2 class="feature-title">Опыт</h2>
       <p class="feature-text">У нас работают мастера своего дела</p>
@@ -63,7 +70,7 @@
 
     <div class="column-25">
       <div class="features-item">
-        <img class="icon" src="data/5.png">
+        <img class="icon" src="data/5.png" alt="medicine icon">
       </div>
       <h2 class="feature-title">Гарантия</h2>
       <p class="feature-text">Бесплатное ТО ваших имплантов в течение 5 лет</p>
@@ -102,5 +109,8 @@
     <img class="icon-social" src="data/social/youtube-hover.png" alt="yt"/>
   </div>
 </footer>
+<script type="text/javascript" charset="UTF-8" src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+<script type="text/javascript" charset="UTF-8" src="parallax.js-1.5.0/parallax.min.js"></script>
+<script src="js/menu.js"></script>
 </body>
 </html>
