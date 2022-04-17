@@ -1,5 +1,6 @@
 .intro {
-  background-image: url("../data/cyborg-1-1.jpg");
+  /*background-color: rgba(0, 0, 0, 0);*/
+  /*background-image: url("../data/cyborg-1-1.jpg");*/
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -37,7 +38,7 @@
   text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.25);
 }
 
-@media (max-width: 465px) {
+@media (max-width: 767px) {
   .title {
     font-size: 2em;
   }
